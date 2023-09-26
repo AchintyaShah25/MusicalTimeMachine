@@ -3,9 +3,9 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 redirect = "http://example.com"
-S_CLIENT_ID = "3b52e6b93bcb423fac08689af2bcc0e5"
-S_CLIENT_SECRET = "ffc1020731e6484c919c2fbad7d9a77d"
-S_USER_ID = "31rrivhkol6cadxdxsywqt36rpea"
+S_CLIENT_ID = "ADD ID"
+S_CLIENT_SECRET = "ADD SECRET"
+S_USER_ID = "ADD USER ID"
 user_date = input("What date Hot100 Would you like? YYYY-MM-DD\n")
 year = user_date.split("-")[0]
 response = requests.get(f"https://www.billboard.com/charts/hot-100/{user_date}/")
